@@ -1,0 +1,325 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 28px;
+  color: #4314FD;
+  font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 32px;
+}
+
+h4 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 18px;
+}
+
+nav {
+  -webkit-box-shadow: 0px 8px 15px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 8px 15px 1px rgba(0, 0, 0, 0.05);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 99;
+}
+
+nav .nav-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 100px;
+}
+
+nav .nav-wrapper .nav-logo p {
+  font-family: "Libre Baskerville", serif;
+  font-size: 24px;
+}
+
+nav .nav-wrapper .nav-logo p:last-child {
+  font-family: "Libre Baskerville", serif;
+  font-size: 12px;
+}
+
+nav .nav-wrapper .nav-links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .nav-wrapper .nav-links ul li {
+  list-style-type: none;
+  padding-left: 30px;
+}
+
+nav .nav-wrapper .nav-links ul li a {
+  text-decoration: none;
+  color: #4314FD;
+}
+
+header {
+  height: 800px;
+  background-image: url(../img/headerlow.png);
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+header .header-img {
+  width: 100%;
+}
+
+header .header-img img {
+  max-width: 100%;
+  width: auto;
+}
+
+header .header-headline {
+  position: absolute;
+  top: 250px;
+  left: 100px;
+}
+
+header .header-headline p {
+  font-family: "Libre Baskerville", serif;
+  font-size: 24px;
+  padding-top: 10px;
+}
+
+header .header-headline p:nth-child(3) {
+  font-size: 24px;
+  color: black;
+  padding-top: 100px;
+  font-family: "Montserrat", sans-serif;
+}
+
+header .header-tel {
+  width: 380px;
+  height: 90px;
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.16);
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.16);
+}
+
+header .header-tel svg {
+  width: 50px;
+  height: 50px;
+  fill: #4314FD;
+  margin-right: 40px;
+}
+
+header .header-tel div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 100%;
+}
+
+header .header-tel div p {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-size: 24px;
+  padding-top: 0;
+}
+
+header .header-tel div p:last-child {
+  font-size: 14px;
+}
+
+main .sec-aboutme {
+  padding: 150px 100px;
+}
+
+main .sec-aboutme .aboutme-wrapper {
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .sec-aboutme .aboutme-wrapper img {
+  height: 500px;
+}
+
+main .sec-aboutme .aboutme-wrapper h2 {
+  padding-bottom: 25px;
+}
+
+main .sec-aboutme .aboutme-wrapper h3 {
+  padding-bottom: 10px;
+}
+
+main .sec-aboutme .aboutme-wrapper h4 {
+  padding-bottom: 25px;
+}
+
+main .sec-aboutme .aboutme-wrapper p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+main .sec-aboutme .aboutme-wrapper div:nth-child(2) {
+  padding-left: 100px;
+}
+
+main .sec-special h2 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+main .sec-special .special-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0px 350px;
+}
+
+main .sec-special .special-icons p {
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+main .sec-special .special-icons .special-icon-diabetes {
+  z-index: 99;
+  text-align: center;
+}
+
+main .sec-special .special-icons .special-icon-diabetes .icon-diabetes {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: #4314FD;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 5px solid #4314FD;
+  margin: auto;
+}
+
+main .sec-special .special-icons .special-icon-diabetes .icon-diabetes svg {
+  width: 70%;
+  height: 70%;
+  fill: white;
+}
+
+main .sec-special .special-icons .special-icon-blood {
+  z-index: 99;
+  text-align: center;
+}
+
+main .sec-special .special-icons .special-icon-blood .icon-blood {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 5px solid #4314FD;
+  margin: auto;
+}
+
+main .sec-special .special-icons .special-icon-blood .icon-blood svg {
+  width: 70%;
+  height: 70%;
+  fill: #4314FD;
+}
+
+main .sec-special .special-icons .special-icon-geriatrie {
+  z-index: 99;
+  text-align: center;
+}
+
+main .sec-special .special-icons .special-icon-geriatrie .icon-geriatrie {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 5px solid #4314FD;
+  margin: auto;
+}
+
+main .sec-special .special-icons .special-icon-geriatrie .icon-geriatrie svg {
+  width: 70%;
+  height: 70%;
+  fill: #4314FD;
+}
+
+main .sec-special .special-text {
+  padding: 150px 0px 300px 0px;
+  background-color: #F4F4F4;
+  -webkit-transform: translateY(-90px);
+          transform: translateY(-90px);
+}
+
+main .sec-special .special-text div {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+main .sec-special .special-text div p {
+  line-height: 25px;
+}
